@@ -3,7 +3,7 @@ class PersonalInfo:
 
     def __init__(self):
         self.name = "Jhon Lennon F. Fernandes"
-        self.age = 32
+        self.age = 33
         self.nationality = "Brazilian"
         self.languages = ["Portuguese-BR", "English", "Italian"]
         self.marital_status = "Married"
@@ -23,11 +23,9 @@ class Career:
         self.courses = [
             "Python Programming",
             "Data Analysis",
-            "Machine Learning",
-            "Deep Learning",
             "SQL",
             "Data Visualization",
-            "Data Storytelling"
+            "Go"
         ]
         self.looking_for = "🔍 Open to job opportunities as a programmer or data scientist."
 
