@@ -1,11 +1,10 @@
 ```python
 class PersonalInfo:
-
     def __init__(self):
-        self.name = "Jhon Lennon F. Fernandes"
+        self.name = "Jhon L. Fernandes"
         self.age = 33
         self.nationality = "Brazilian"
-        self.languages = ["Portuguese-BR", "English", "Italian"]
+        self.languages = ["English", "Portuguese"]
         self.marital_status = "Married"
         self.location = "London, UK"
 
@@ -13,31 +12,29 @@ class PersonalInfo:
         print(f"👋 Hi there! My name is {self.name}.")
 
     def contact_info(self):
-        print("💬 Contact me to chat about tech and opportunities!")
+        print("💬 Contact me to discuss software development opportunities!")
 
 class Career:
-    
     def __init__(self):
-        self.role = "Student"
+        self.role = "Software Developer"
         self.studies = "📚 Currently studying:"
         self.courses = [
             "Python Programming",
-            "Data Analysis",
             "SQL",
-            "Data Visualization",
-            "Go"
+            "Go",
+            "Algorithms and Data Structures",
+            "Agile Methodologies"
         ]
-        self.looking_for = "🔍 Open to job opportunities as a programmer or data scientist."
+        self.looking_for = "🔍 Open to job opportunities as a software developer or software engineer."
 
     def get_info(self):
         print(f"💼 I'm a {self.role} {self.studies}")
-        for course in this.courses:
-            print(f"  - {course}")
+        for course in self.courses:
+            print(f" - {course}")
         print(self.looking_for)
 
 profile = PersonalInfo()
 career = Career()
-
 profile.say_hi()
 career.get_info()
 profile.contact_info()
