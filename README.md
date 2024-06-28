@@ -2,39 +2,38 @@
 class PersonalInfo:
     def __init__(self):
         self.name = "Jhon L. Fernandes"
-        self.age = 33
-        self.nationality = "Brazilian"
         self.languages = ["English", "Portuguese"]
-        self.marital_status = "Married"
         self.location = "London, UK"
-
+    
     def say_hi(self):
         print(f"👋 Hi there! My name is {self.name}.")
-
+    
     def contact_info(self):
-        print("💬 Contact me to discuss software development opportunities!")
+        print("💬 Contact me to discuss DevOps and Cloud Computing opportunities!")
 
 class Career:
     def __init__(self):
-        self.role = "Software Developer"
-        self.studies = "📚 Currently studying:"
-        self.courses = [
-            "Python Programming",
-            "SQL",
-            "Go",
-            "Algorithms and Data Structures",
-            "Agile Methodologies"
+        self.role = "Software Engineer"
+        self.studies = "📚 Currently focusing on:"
+        self.skills = [
+            "Containerization (Docker, Kubernetes)",
+            "CI/CD (Jenkins, GitLab CI)",
+            "Infrastructure as Code (Terraform, Ansible)",
+            "Cloud Platforms (AWS, Azure, GCP)",
+            "Monitoring and Logging (Prometheus, ELK Stack)"
         ]
-        self.looking_for = "🔍 Open to job opportunities as a software developer or software engineer."
-
+        self.looking_for = "🔍 Open to job opportunities in DevOps and Cloud Engineering roles."
+    
     def get_info(self):
-        print(f"💼 I'm a {self.role} {self.studies}")
-        for course in self.courses:
-            print(f" - {course}")
+        print(f"💼 I'm a {self.role}")
+        print(self.studies)
+        for skill in self.skills:
+            print(f" - {skill}")
         print(self.looking_for)
 
 profile = PersonalInfo()
 career = Career()
+
 profile.say_hi()
 career.get_info()
 profile.contact_info()
