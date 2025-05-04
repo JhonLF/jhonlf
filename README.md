@@ -2,31 +2,31 @@
 class PersonalInfo:
     def __init__(self):
         self.name = "Jhon L. Fernandes"
-        self.languages = ["English", "Portuguese"]
-        self.location = "London, UK"
+        self.languages = ["English", "Portuguese", "Italian (B1)"]
+        self.location = "Italy / Remote 🌍"
     
     def say_hi(self):
-        print(f"👋 Hi there! My name is {self.name}.")
+        print(f"👋 Hi there! I'm {self.name}, a Full Stack & Mobile Developer.")
     
     def contact_info(self):
-        print("💬 Contact me to discuss DevOps and Cloud Computing opportunities!")
+        print("💬 Let's connect to talk about Full Stack, React Native, or Cloud Engineering projects!")
 
 class Career:
     def __init__(self):
-        self.role = "Software Engineer"
-        self.studies = "📚 Currently focusing on:"
+        self.role = "Full Stack & Cloud Developer"
+        self.focus = "📚 Currently working with:"
         self.skills = [
-            "Containerization (Docker, Kubernetes)",
-            "CI/CD (Jenkins, GitLab CI)",
-            "Infrastructure as Code (Terraform, Ansible)",
-            "Cloud Platforms (AWS, Azure, GCP)",
-            "Monitoring and Logging (Prometheus, ELK Stack)"
+            "Frontend: React, React Native, Redux",
+            "Backend: Node.js, Express, Go",
+            "Cloud & DevOps: AWS (Lambda, EC2, S3), Terraform, CI/CD",
+            "Database: PostgreSQL, MongoDB, Redis",
+            "Mobile: React Native, Expo, AWS Integration"
         ]
-        self.looking_for = "🔍 Open to job opportunities in DevOps and Cloud Engineering roles."
+        self.looking_for = "🔍 Open to remote opportunities in Full Stack or Cloud Development."
     
     def get_info(self):
         print(f"💼 I'm a {self.role}")
-        print(self.studies)
+        print(self.focus)
         for skill in self.skills:
             print(f" - {skill}")
         print(self.looking_for)
@@ -37,6 +37,7 @@ career = Career()
 profile.say_hi()
 career.get_info()
 profile.contact_info()
+
 ```
 
 <picture>
