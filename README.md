@@ -3,7 +3,7 @@ class PersonalInfo:
     def __init__(self):
         self.name = "Jhon L. Fernandes"
         self.languages = ["English", "Portuguese", "Italian (B1)"]
-        self.location = "Italy / Remote 🌍"
+        self.location = "Europe / Remote 🌍"
     
     def say_hi(self):
         print(f"👋 Hi there! I'm {self.name}, a Full Stack & Mobile Developer.")
